@@ -1,0 +1,59 @@
+.homeContainer {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+
+.homeSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.homeBannerContainer {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+.navbarLinksContainer {
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  height: 50px;
+}
+
+.navbarLinksContainer a {
+  text-decoration: none;
+  margin-top: 30px;
+  color: var(--text-primary);
+}
+
+.homeBannerContainer {
+  margin-top: 100px;
+}
+
+.primaryHeading {
+  font-size: 80px;
+}
+
+.primaryText {
+  font-size: 52px;
+}
+
+.homeButton button {
+  background-color: #ff536b;
+  color: #ececec;
+  border-radius: 35px;
+  border: none;
+  padding: 12px 18px 12px 18px;
+}
+
+.clock {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}

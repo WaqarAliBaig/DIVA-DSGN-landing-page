@@ -1,0 +1,58 @@
+.processSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.processContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 90%;
+}
+
+.processContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 44%;
+  text-align: center;
+}
+
+.processCards {
+  width: 100%;
+  margin: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.singleCard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  gap: 100px;
+}
+
+.image {
+  width: 30%;
+}
+
+.cardBody {
+  width: 45%;
+}
+
+.title {
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+.text {
+  margin-top: 20px;
+  font-size: large;
+}

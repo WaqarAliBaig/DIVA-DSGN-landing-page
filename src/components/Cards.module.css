@@ -1,0 +1,36 @@
+.cardContainer {
+  margin-top: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.cardInner {
+  border: 2px solid gray;
+  border-radius: 20px;
+  width: 90%;
+  padding-top: 40px;
+  padding-bottom: 60px;
+}
+
+.cardRow {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  gap: 65px;
+}
+
+.cardColumn {
+  aspect-ratio: 2;
+}
+
+.cardButton button {
+  background-color: #08131a;
+  color: #ececec;
+  border-radius: 35px;
+  border: none;
+  padding: 12px 18px 12px 18px;
+  margin-top: 60px;
+}

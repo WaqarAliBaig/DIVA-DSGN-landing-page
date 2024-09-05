@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+:root {
+  --text-primary: white;
+  --bg-background: #1e1414;
+  --vertical-banner-card: rgb(65, 55, 55);
+  --vertical-banner-selected: rgb(59, 39, 41);
+  --vector-footer-card: rgb(74, 54, 56);
+}

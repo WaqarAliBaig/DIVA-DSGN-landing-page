@@ -1,0 +1,15 @@
+body {
+  color: var(--text-primary);
+  background-color: var(--bg-background);
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar { width: 0; }
+
+.appContainer {
+  background-image: url("./assets/images/Pattern.png");
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}

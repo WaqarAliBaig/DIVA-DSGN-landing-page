@@ -1,0 +1,54 @@
+.membershipSection {
+  background-image: url("../assets/images/membership_Page/Pattern.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.membershipContainer {
+  width: 90%;
+  margin-top: 100px;
+}
+
+.membershipInner1 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.textSection {
+  font-size: larger;
+  font-weight: bold;
+}
+
+.logos {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.membershipInner2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 350px;
+  color: white;
+}
+
+.paragraphSection {
+  width: 50%;
+}
+
+.paragraphSection h2 {
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+.paragraphSection p {
+  margin-top: 25px;
+  font-size: 19px;
+}

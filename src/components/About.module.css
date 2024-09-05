@@ -1,0 +1,79 @@
+.aboutUs {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.aboutContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.aboutHeading {
+  font-size: 25px;
+}
+
+.aboutCards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  gap: 78px;
+}
+
+.aboutSingleCardContainer {
+  border-bottom: 2px solid black;
+  padding-bottom: 70px;
+}
+
+.aboutSingleCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.aboutCardBody {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+}
+
+.aboutCardContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.name {
+  font-size: small;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.designation {
+  font-size: small;
+  margin-top: 5px;
+}
+
+.star {
+  display: flex;
+  gap: 15px;
+  color: rgb(255, 224, 0, 1);
+  margin-top: 25px;
+}
+
+.arrowImg {
+  margin-top: 50px;
+}

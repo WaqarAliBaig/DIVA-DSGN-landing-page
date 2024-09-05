@@ -1,0 +1,40 @@
+.footerOuter {
+  width: 100%;
+  margin-top: 60px;
+}
+
+.footerContainer {
+  width: 100%;
+}
+
+.footerContent {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footerText {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  font-size: small;
+}
+
+.text2 {
+  color: rgb(130, 126, 93);
+}
+
+.text3 {
+  color: rgb(130, 126, 93);
+}
+
+.footerIcons {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.logo {
+  width: 100%;
+  margin-top: 100px;
+}

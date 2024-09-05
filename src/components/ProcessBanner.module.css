@@ -1,0 +1,35 @@
+.banner {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid;
+  border-radius: 20px;
+  padding: 65px 0px 65px 0px;
+  background: rgb(37, 37, 37);
+}
+
+.bannerBody {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 55%;
+  text-align: center;
+  gap: 20px;
+}
+
+.bannerTitle {
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+.bannerButton {
+  background-color: #ff536b;
+  color: #ececec;
+  border-radius: 35px;
+  border: none;
+  padding: 12px 18px 12px 18px;
+  margin-top: 30px;
+}
