@@ -36,37 +36,56 @@
   margin-top: 100px;
   width: 60%;
   display: flex;
+  flex-direction: row;
+  gap: 10px;
   align-items: center;
   padding-top: 15px;
   padding-bottom: 15px;
 }
 
 .pricingCard1 {
-  border-radius: 20px 0 0 20px;
-  width: 37%;
-  background-color: #acacac;
+  border-radius: 15px;
+  width: 36%;
   padding: 50px 20px 60px 40px;
   height: 600px;
   background-color: var(--vertical-banner-card);
+  transition: all 0.3s;
+}
+
+.pricingCard1:hover {
+  border: 2px solid rgb(109, 1, 1);
+  background-color: var(--vertical-banner-selected);
+  transform: scale(1.15);
 }
 
 .pricingCard2 {
-  border: 2px solid rgb(109, 1, 1);
-  border-radius: 20px;
-  width: 37%;
-  background-color: #acacac;
-  padding: 50px 20px 60px 40px;
-  height: 635px;
-  background-color: var(--vertical-banner-selected);
-}
-
-.pricingCard3 {
-  border-radius: 0 20px 20px 0;
-  width: 37%;
-  background-color: #acacac;
+  border-radius: 15px;
+  width: 36%;
   padding: 50px 20px 60px 40px;
   height: 600px;
   background-color: var(--vertical-banner-card);
+  transition: all 0.3s;
+}
+
+.pricingCard2:hover {
+  border: 2px solid rgb(109, 1, 1);
+  background-color: var(--vertical-banner-selected);
+  transform: scale(1.15);
+}
+
+.pricingCard3 {
+  border-radius: 15px;
+  width: 36%;
+  padding: 50px 20px 60px 40px;
+  height: 600px;
+  background-color: var(--vertical-banner-card);
+  transition: all 0.3s;
+}
+
+.pricingCard3:hover {
+  border: 2px solid rgb(109, 1, 1);
+  background-color: var(--vertical-banner-selected);
+  transform: scale(1.15);
 }
 
 .pricingCardInner1 {

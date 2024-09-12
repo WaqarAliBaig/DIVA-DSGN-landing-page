@@ -32,8 +32,8 @@ const FooterCards = () => {
 
   const renderFooterCards = (card, index) => {
     return (
-      <div className={styles.singleCard}>
-        <Card style={{ width: "23rem" }} key={index}>
+      <div className={styles.singleCard} key={index}>
+        <Card style={{ width: "23rem" }}>
           <Card.Img className={styles.img} variant="top" src={card.image} />
           <Card.Body className={styles.cardBody}>
             <Card.Title className={styles.cardTitle}>{card.title}</Card.Title>

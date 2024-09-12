@@ -5,7 +5,7 @@ import ProcessBanner from "./ProcessBanner";
 
 const Process = () => {
   return (
-    <div className={styles.processSection}>
+    <div className={styles.processSection} id="process">
       <div className={styles.processContainer}>
         <div className={styles.processContent}>
           <h2>How does DIVADSGN work?</h2>

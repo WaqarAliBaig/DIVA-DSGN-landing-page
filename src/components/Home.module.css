@@ -23,12 +23,10 @@
   text-align: center;
   justify-content: space-around;
   height: 50px;
-}
-
-.navbarLinksContainer a {
   text-decoration: none;
   margin-top: 30px;
   color: var(--text-primary);
+  cursor: pointer;
 }
 
 .homeBannerContainer {
@@ -48,7 +46,31 @@
   color: #ececec;
   border-radius: 35px;
   border: none;
-  padding: 12px 18px 12px 18px;
+  text-align: center;
+  padding: 15px;
+  cursor: pointer;
+  transition: all 0.5s;
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+}
+
+.homeButton button::after {
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  top: 1;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.homeButton button:hover {
+  padding-right: 25px;
+}
+
+.homeButton button:hover::after {
+  opacity: 1;
+  right: 0;
 }
 
 .clock {

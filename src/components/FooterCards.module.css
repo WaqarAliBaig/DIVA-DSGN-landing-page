@@ -17,6 +17,12 @@
   flex-direction: column;
   padding: 50px 15px 50px 15px;
   background-color: var(--vector-footer-card);
+  transition: all 0.3s;
+  position: relative;
+}
+
+.singleCard:hover {
+  transform: scale(1.15);
 }
 
 .img {

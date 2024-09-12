@@ -4,7 +4,7 @@ import PricingCards from "./PricingCards";
 
 const Pricing = () => {
   return (
-    <div className={styles.pricing}>
+    <div className={styles.pricing} id="pricing">
       <div className={styles.contentContainer}>
         <div className={styles.content}>
           <h2 className={styles.heading}>Plans & Pricing</h2>

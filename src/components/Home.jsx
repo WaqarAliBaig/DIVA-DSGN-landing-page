@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef } from "react";
 import Navbar from "./Navbar";
 import logo from "../assets/images/Logo.svg";
 import sand_clock from "../assets/images/Sand-clock.png";
@@ -6,6 +6,11 @@ import styles from "./Home.module.css";
 import Cards from "./Cards";
 
 const Home = () => {
+  const cardsSection = useRef();
+
+  const scrollHandler = (elmRef) => {
+    window.scrollTo({ top: elmRef.current.offsetTop, behavior: "smooth" });
+  };
   return (
     <div className={styles.homeContainer}>
       <Navbar />
@@ -22,15 +27,17 @@ const Home = () => {
             covered!
           </p>
           <div className={styles.homeButton}>
-            <button>Book 15-min call</button>
+            <button onClick={() => scrollHandler(cardsSection)}>
+              Book 15-min call
+            </button>
           </div>
-          <div className={styles.clock}> 
+          <div className={styles.clock}>
             <img src={sand_clock} alt="sand-clock" />
             <p>2 slots remaining</p>
           </div>
         </div>
       </div>
-      <Cards />
+      <Cards cards={cardsSection} />
     </div>
   );
 };

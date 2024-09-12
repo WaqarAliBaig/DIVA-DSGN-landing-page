@@ -1,15 +1,15 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
 import styles from "./Process.module.css";
-import Frame_1 from "../assets/images/Process_Page/Frame_1.png";
-import Frame_2 from "../assets/images/Process_Page/Frame_2.png";
-import Frame_3 from "../assets/images/Process_Page/Frame_3.png";
+import Frame_1 from "../assets/images/Process_Page/Frame-1.png";
+import Frame_2 from "../assets/images/Process_Page/Frame-2.png";
+import Frame_3 from "../assets/images/Process_Page/Frame-3.png";
 
 const ProcessCard = () => {
   return (
     <div className={styles.processCards}>
       {/* Card-1 */}
-      <Card className={styles.singleCard}>
+      <Card className={styles.singleCard} data-aos="slide-left">
         <Card.Img className={styles.image} variant="top" src={Frame_1} />
         <Card.Body className={styles.cardBody}>
           <Card.Title className={styles.title}>
@@ -24,7 +24,7 @@ const ProcessCard = () => {
       </Card>
 
       {/* Card-2 */}
-      <Card className={styles.singleCard}>
+      <Card className={styles.singleCard} data-aos="slide-right">
         <Card.Body className={styles.cardBody}>
           <Card.Title className={styles.title}>Working on design</Card.Title>
           <Card.Text className={styles.text}>
@@ -36,7 +36,7 @@ const ProcessCard = () => {
       </Card>
 
       {/* Card-3 */}
-      <Card className={styles.singleCard}>
+      <Card className={styles.singleCard} data-aos="slide-left">
         <Card.Img className={styles.image} variant="top" src={Frame_3} />
         <Card.Body className={styles.cardBody}>
           <Card.Title className={styles.title}>

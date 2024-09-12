@@ -36,12 +36,8 @@ const AboutCards = () => {
 
   const renderAboutCards = (card, index) => {
     return (
-      <div className={styles.aboutSingleCardContainer}>
-        <Card
-          style={{ width: "15rem" }}
-          key={index}
-          className={styles.aboutSingleCard}
-        >
+      <div className={styles.aboutSingleCardContainer} key={index}>
+        <Card style={{ width: "15rem" }} className={styles.aboutSingleCard}>
           <Card.Body className={styles.aboutCardBody}>
             <Card.Title className={styles.aboutCardTitle}>
               {card.title}

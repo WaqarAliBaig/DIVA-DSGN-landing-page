@@ -9,7 +9,7 @@ import MembershipCards from "./MembershipCards";
 
 const Membership = () => {
   return (
-    <div className={styles.membershipSection}>
+    <div className={styles.membershipSection} id="membership">
       <div className={styles.membershipContainer}>
         {/* Frame-1 */}
         <div className={styles.membershipInner1}>
@@ -27,7 +27,7 @@ const Membership = () => {
         {/* Frame-1 */}
 
         {/* Frame-2 */}
-        <div className={styles.membershipInner2}>
+        <div className={styles.membershipInner2} id="membershipCards">
           <div className={styles.paragraphSection}>
             <h2>Awesome Membership Perks</h2>
             <p>

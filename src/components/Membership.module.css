@@ -28,6 +28,15 @@
   display: flex;
   justify-content: space-around;
   text-align: center;
+  cursor: pointer;
+}
+
+.logos img {
+  transition: all 0.3s;
+}
+
+.logos img:hover {
+  transform: scale(1.15);
 }
 
 .membershipInner2 {

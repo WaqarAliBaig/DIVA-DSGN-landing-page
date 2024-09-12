@@ -44,8 +44,8 @@ function MembershipCards() {
 
   const renderMembershipCards = (card, index) => {
     return (
-      <div className={styles.singleCard}>
-        <Card style={{ width: "18rem" }} key={index}>
+      <div className={styles.singleCard} key={index}>
+        <Card style={{ width: "18rem" }}>
           <Card.Img variant="top" src={card.image} />
           <Card.Body className={styles.cardBody}>
             <Card.Title className={styles.cardTitle}>{card.title}</Card.Title>
@@ -57,7 +57,9 @@ function MembershipCards() {
   };
 
   return (
-    <div className={styles.cards}>{vectorCards.map(renderMembershipCards)}</div>
+    <div className={styles.cards}>
+      {vectorCards.map(renderMembershipCards)}
+    </div>
   );
 }
 

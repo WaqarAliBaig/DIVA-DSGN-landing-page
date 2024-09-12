@@ -13,9 +13,9 @@ import card_10 from "../assets/cards/Card-10.png";
 import card_11 from "../assets/cards/Card-11.png";
 import card_12 from "../assets/cards/Card-12.png";
 
-const Cards = () => {
+const Cards = ({ cards }) => {
   return (
-    <div className={styles.cardContainer}>
+    <div className={styles.cardContainer} ref={cards}>
       <div className={styles.cardInner}>
         <div className={styles.cardRow}>
           <img className={styles.cardColumn} src={card_1} alt="" />
@@ -31,8 +31,8 @@ const Cards = () => {
           <img className={styles.cardColumn} src={card_11} alt="" />
           <img className={styles.cardColumn} src={card_12} alt="" />
         </div>
-        <div className={styles.cardButton}>
-          <button>View recent works</button>
+        <div>
+          <button className={styles.cardButton}>View recent works</button>
         </div>
       </div>
     </div>

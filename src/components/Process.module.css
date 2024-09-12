@@ -27,8 +27,10 @@
   width: 100%;
   margin: 100px;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
+  gap: 40px;
 }
 
 .singleCard {
@@ -37,6 +39,7 @@
   align-items: center;
   width: 80%;
   gap: 100px;
+  overflow: hidden;
 }
 
 .image {
